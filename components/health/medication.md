@@ -14,6 +14,7 @@ Right card
 2nd layer - add active sc medication - popup 1
 ----------------------------------------------
 ![Add active sc medication - popup 1](../../assets/img/medication/2nd-layer-addMedication-form-1.png)
+Ordering provider field should be auto selected by loggedin doctor and disabled.
 
 ----------------------------------- 
 
