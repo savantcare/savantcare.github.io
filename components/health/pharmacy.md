@@ -36,7 +36,6 @@ Based on the selected values, ie. 'Not on surescripts' and 'On surescripts', a b
 2. If option 2(On surescripts) is selected
 ![Add pharmacy type 2](../../assets/img/pharmacy/2nd-layer-add-pharmacy-2.png)
 
-
 -----------------------
 Additional info:
 1. For option 1 mentioned above, you need to fetch 'City' and 'State' values from our database. Clicking on save button will add pharmacy to that patient.
