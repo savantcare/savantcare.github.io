@@ -75,12 +75,12 @@ hte medication by default stored in DB as 'Draft medication'and a popup2 will op
 
 ----------------------------------------------------
 
-### 1. Hovering on medication will show 4 icons D,R,V,I
+### Hovering on medication will show 4 icons D,R,V,I
 
 ![Reorder medication](../../assets/img/medication/medication-order-right-panel-hover.png)
 
 
-### 2. Clicking on 'D' (Discontinue medication) will show the followng popup 
+### 1. Clicking on 'D' (Discontinue medication) will show the followng popup 
 to provide the Reason
 ![discontinue medication form](../../assets/img/medication/discontinue-meds.png)
 
@@ -97,4 +97,5 @@ It will show the medication concent doc by the patient in a saperate window.
 
 ### 4. Clicking on 'I'
 It will show provider information for the medication. e.g.
+
 ![Reorder medication concent pdf](../../assets/img/medication/meds-info.png)
