@@ -53,7 +53,7 @@ Need to understand about following fields:
 6. days supply: time period of the medication
 7. Dispense as written : field required by Provider,
 Option1 : DAW - No, Option2 : DAW - Yes
-8. Pharmacy: auto-complete LOcal pharmacy list of the patient
+8. Pharmacy: auto-complete Local pharmacy list of the patient
 
 Note : Ordering provider field should be auto selected by loggedin doctor and disabled. The filed will be active for role 'Doctor's admin(DA)' and need to provide the doctor's name in the dropdown.
 
