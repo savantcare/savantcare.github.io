@@ -64,7 +64,7 @@ hte medication by default stored in DB as 'Draft medication'and a popup2 will op
 1. Option1: Save as draft, (Not active medication)
 2. Option2: Manual order through Allscript (submit to 3rd party vendor to send mdication to patient via local pharmacy and the medication will be marked as a 'active meidcation')
 3. Option3: Cancel (Cancel the medication)
-4. Option4: Submit to surescripts (Upcoming process to e-prescribe meication)
+4. Option4: Submit to surescripts (Upcoming process to e-prescribe medication) -- Need to trigger a dummy api  with the mdecation realated data  for 3rd party submittion (the api part will be done by our team)
 
 
 
@@ -96,6 +96,6 @@ It will show the medication concent doc by the patient in a saperate window.
 
 
 ### 4. Clicking on 'I'
-It will show provider information for the medication. e.g.
+It will show created-by information for the medication. e.g.
 
 ![Reorder medication concent pdf](../../assets/img/medication/meds-info.png)
