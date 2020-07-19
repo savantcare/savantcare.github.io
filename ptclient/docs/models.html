@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Q1) Should ROWSTART and ROWEND be string or numnber? | Patient file</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="Big picture, server side and client side doc">
+    <link rel="preload" href="/assets/css/0.styles.06f8e488.css" as="style"><link rel="preload" href="/assets/js/app.a256a33b.js" as="script"><link rel="preload" href="/assets/js/2.d56ae915.js" as="script"><link rel="preload" href="/assets/js/66.927867a4.js" as="script"><link rel="prefetch" href="/assets/js/10.a159ad09.js"><link rel="prefetch" href="/assets/js/11.5b4cbd06.js"><link rel="prefetch" href="/assets/js/12.c046b34d.js"><link rel="prefetch" href="/assets/js/13.6c93c481.js"><link rel="prefetch" href="/assets/js/14.dc8ab0e0.js"><link rel="prefetch" href="/assets/js/15.52a87c7f.js"><link rel="prefetch" href="/assets/js/16.fca0f9e3.js"><link rel="prefetch" href="/assets/js/17.d0556022.js"><link rel="prefetch" href="/assets/js/18.0ca973e7.js"><link rel="prefetch" href="/assets/js/19.ec39b620.js"><link rel="prefetch" href="/assets/js/20.87994cdd.js"><link rel="prefetch" href="/assets/js/21.90bd13f0.js"><link rel="prefetch" href="/assets/js/22.bd56c034.js"><link rel="prefetch" href="/assets/js/23.2f41256e.js"><link rel="prefetch" href="/assets/js/24.640c4a9f.js"><link rel="prefetch" href="/assets/js/25.3694b698.js"><link rel="prefetch" href="/assets/js/26.21b7b009.js"><link rel="prefetch" href="/assets/js/27.4642ce70.js"><link rel="prefetch" href="/assets/js/28.83f7ef63.js"><link rel="prefetch" href="/assets/js/29.6d51c759.js"><link rel="prefetch" href="/assets/js/3.c21a7385.js"><link rel="prefetch" href="/assets/js/30.7b6a4349.js"><link rel="prefetch" href="/assets/js/31.315580dd.js"><link rel="prefetch" href="/assets/js/32.cb39f993.js"><link rel="prefetch" href="/assets/js/33.2b2a2cbd.js"><link rel="prefetch" href="/assets/js/34.ddb84f2a.js"><link rel="prefetch" href="/assets/js/35.b5c1bd4c.js"><link rel="prefetch" href="/assets/js/36.d26fbc45.js"><link rel="prefetch" href="/assets/js/37.27d47c03.js"><link rel="prefetch" href="/assets/js/38.07cef5d5.js"><link rel="prefetch" href="/assets/js/39.b488861f.js"><link rel="prefetch" href="/assets/js/4.2098f9bc.js"><link rel="prefetch" href="/assets/js/40.1ab3e3b3.js"><link rel="prefetch" href="/assets/js/41.8d43de88.js"><link rel="prefetch" href="/assets/js/42.b8e2451c.js"><link rel="prefetch" href="/assets/js/43.666cdea8.js"><link rel="prefetch" href="/assets/js/44.4737f44c.js"><link rel="prefetch" href="/assets/js/45.f23ea519.js"><link rel="prefetch" href="/assets/js/46.e995411f.js"><link rel="prefetch" href="/assets/js/47.3d2012de.js"><link rel="prefetch" href="/assets/js/48.bc932f7f.js"><link rel="prefetch" href="/assets/js/49.753a5cb8.js"><link rel="prefetch" href="/assets/js/5.ef5ed1b4.js"><link rel="prefetch" href="/assets/js/50.45a7faa3.js"><link rel="prefetch" href="/assets/js/51.368d1ce8.js"><link rel="prefetch" href="/assets/js/52.0e0e2161.js"><link rel="prefetch" href="/assets/js/53.b0a7c69a.js"><link rel="prefetch" href="/assets/js/54.5de2e718.js"><link rel="prefetch" href="/assets/js/55.303b3955.js"><link rel="prefetch" href="/assets/js/56.710c71c1.js"><link rel="prefetch" href="/assets/js/57.e77af261.js"><link rel="prefetch" href="/assets/js/58.bae30964.js"><link rel="prefetch" href="/assets/js/59.f04e7a2d.js"><link rel="prefetch" href="/assets/js/6.3f54c88d.js"><link rel="prefetch" href="/assets/js/60.46c43614.js"><link rel="prefetch" href="/assets/js/61.9ad97afb.js"><link rel="prefetch" href="/assets/js/62.761e3c03.js"><link rel="prefetch" href="/assets/js/63.59d49553.js"><link rel="prefetch" href="/assets/js/64.5986612e.js"><link rel="prefetch" href="/assets/js/65.4a0d29ad.js"><link rel="prefetch" href="/assets/js/67.b9d36760.js"><link rel="prefetch" href="/assets/js/68.de107265.js"><link rel="prefetch" href="/assets/js/69.7ab12033.js"><link rel="prefetch" href="/assets/js/7.0b7cb4c5.js"><link rel="prefetch" href="/assets/js/70.d61978cb.js"><link rel="prefetch" href="/assets/js/71.8c1accb5.js"><link rel="prefetch" href="/assets/js/72.1f867eba.js"><link rel="prefetch" href="/assets/js/73.b812f9bc.js"><link rel="prefetch" href="/assets/js/74.309b5507.js"><link rel="prefetch" href="/assets/js/75.1565e1e3.js"><link rel="prefetch" href="/assets/js/76.c9e6f62f.js"><link rel="prefetch" href="/assets/js/77.7d3b6eae.js"><link rel="prefetch" href="/assets/js/78.6925bbb8.js"><link rel="prefetch" href="/assets/js/79.ff91600b.js"><link rel="prefetch" href="/assets/js/8.50f355cc.js"><link rel="prefetch" href="/assets/js/80.c2fdbeda.js"><link rel="prefetch" href="/assets/js/81.1944f453.js"><link rel="prefetch" href="/assets/js/9.febf376a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.06f8e488.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Patient file</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/" class="sidebar-heading clickable router-link-active open"><span>Home</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/faq.html" class="sidebar-link">FAQ</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/big-picture/" class="sidebar-heading clickable"><span>Big picture</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/ptserver/" class="sidebar-heading clickable"><span>Server</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/ptclient/" class="sidebar-heading clickable router-link-active"><span>Client</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/GLOSSARY.html" class="sidebar-link">Glossary</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="q1-should-row-start-and-row-end-be-string-or-numnber"><a href="#q1-should-row-start-and-row-end-be-string-or-numnber" class="header-anchor">#</a> Q1) Should ROW_START and ROW_END be string or numnber?</h1> <div class="language- extra-class"><pre><code>    vuex-orm does not have a native type called Date. The native data types are at: https://vuex-orm.org/guide/model/defining-models.html#generic-type
+       + ves of storing as a number:
+         1.  When using data
+                At a lot of places in the code I will need to compare the current time with ROW_END
+                For e.g. 1. To decide if the row is discontinued.
+                       2. For a previous appt to decide if the row was discontinued before that appt time.
+         2. Whhen reading data
+              MariaDB is already storing the ROW_START and ROW_END as numbers.
+         3. When saving data
+              I can again use numbers. No need to change from string to numbers.
+</code></pre></div><h1 id="q2-on-the-client-side-should-i-work-with-seconds-or-microseconds"><a href="#q2-on-the-client-side-should-i-work-with-seconds-or-microseconds" class="header-anchor">#</a> Q2) On the client side should I work with seconds or microseconds?</h1> <div class="language- extra-class"><pre><code>      ROW_START and ROW_END are stored as timestamp(6). This mneans there is 6 digits of precision hence in microseconds
+          Ref: https://mariadb.com/kb/en/timestamp/ and
+          https://mariadb.com/kb/en/temporal-data-tables/
+
+       Goal is to do monimum number of conversions. Hence we will store the data the way it is given to us.
+</code></pre></div><h1 id="q3-what-should-be-the-primary-key"><a href="#q3-what-should-be-the-primary-key" class="header-anchor">#</a> Q3) What should be the primary key?</h1> <div class="language- extra-class"><pre><code> Option1: uuid -&gt; Not possible since there are duplicate uuid as this is temporal DB
+                  if there are 10 data rows and 2 are duplicate then entities will only get 8 entries.
+
+ Option2: composite primary key.
+        ['uuid', 'ROW_START'] // Ref: https://vuex-orm.org/guide/model/defining-models.html#primary-key
+
+        Finding data from primary key is much faster then finding data by running a loop over all the data rows.
+
+        Update with primary key:
+             ormRem.update({
+              where: uniqueRowID              // vuex-orm knows that it needs to match with primary key
+              data: {
+                remDesc: pEvent,
+                },
+              })
+
+
+        update with composite primary ley:
+         ormRem.update({
+          where: [remUUID, this.reminderRowStart],    // The index is bigger and it will take longer to match
+          data: {
+            remDesc: pEvent,
+            },
+          })
+
+
+ Option3: Let vuex-orm give auto generated string primary key of auto increment numbers like $uid1
+
+ Option 4: Generate a numerical ID
+ Better performance. Ref: https://stackoverflow.com/questions/10639488/faster-to-access-numeric-property-by-string-or-integer
+
+
+ Choice made in July 2020: Option 4
+</code></pre></div><h1 id="q4-how-to-give-numeric-id-to-each-row"><a href="#q4-how-to-give-numeric-id-to-each-row" class="header-anchor">#</a> Q4) How to give numeric ID to each row ?</h1> <div class="language- extra-class"><pre><code>  Solution comes from cue on slack given on 10th July 2020
+    The closure passed into this.uid(() =&gt; intUniqueID()) simply invokes the closure when the model is instructed to generate a uid. The callback simply needs to return a value.
+    In it’s simplest form, all you need for a primitive value is:
+    let count = 0
+    const intUniqueID = () =&gt; ++count
+    this.uid(() =&gt; intUniqueID())
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a256a33b.js" defer></script><script src="/assets/js/2.d56ae915.js" defer></script><script src="/assets/js/66.927867a4.js" defer></script>
+  </body>
+</html>

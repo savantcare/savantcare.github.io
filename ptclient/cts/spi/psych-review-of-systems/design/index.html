@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Patient file</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="Big picture, server side and client side doc">
+    <link rel="preload" href="/assets/css/0.styles.06f8e488.css" as="style"><link rel="preload" href="/assets/js/app.a256a33b.js" as="script"><link rel="preload" href="/assets/js/2.d56ae915.js" as="script"><link rel="preload" href="/assets/js/55.303b3955.js" as="script"><link rel="prefetch" href="/assets/js/10.a159ad09.js"><link rel="prefetch" href="/assets/js/11.5b4cbd06.js"><link rel="prefetch" href="/assets/js/12.c046b34d.js"><link rel="prefetch" href="/assets/js/13.6c93c481.js"><link rel="prefetch" href="/assets/js/14.dc8ab0e0.js"><link rel="prefetch" href="/assets/js/15.52a87c7f.js"><link rel="prefetch" href="/assets/js/16.fca0f9e3.js"><link rel="prefetch" href="/assets/js/17.d0556022.js"><link rel="prefetch" href="/assets/js/18.0ca973e7.js"><link rel="prefetch" href="/assets/js/19.ec39b620.js"><link rel="prefetch" href="/assets/js/20.87994cdd.js"><link rel="prefetch" href="/assets/js/21.90bd13f0.js"><link rel="prefetch" href="/assets/js/22.bd56c034.js"><link rel="prefetch" href="/assets/js/23.2f41256e.js"><link rel="prefetch" href="/assets/js/24.640c4a9f.js"><link rel="prefetch" href="/assets/js/25.3694b698.js"><link rel="prefetch" href="/assets/js/26.21b7b009.js"><link rel="prefetch" href="/assets/js/27.4642ce70.js"><link rel="prefetch" href="/assets/js/28.83f7ef63.js"><link rel="prefetch" href="/assets/js/29.6d51c759.js"><link rel="prefetch" href="/assets/js/3.c21a7385.js"><link rel="prefetch" href="/assets/js/30.7b6a4349.js"><link rel="prefetch" href="/assets/js/31.315580dd.js"><link rel="prefetch" href="/assets/js/32.cb39f993.js"><link rel="prefetch" href="/assets/js/33.2b2a2cbd.js"><link rel="prefetch" href="/assets/js/34.ddb84f2a.js"><link rel="prefetch" href="/assets/js/35.b5c1bd4c.js"><link rel="prefetch" href="/assets/js/36.d26fbc45.js"><link rel="prefetch" href="/assets/js/37.27d47c03.js"><link rel="prefetch" href="/assets/js/38.07cef5d5.js"><link rel="prefetch" href="/assets/js/39.b488861f.js"><link rel="prefetch" href="/assets/js/4.2098f9bc.js"><link rel="prefetch" href="/assets/js/40.1ab3e3b3.js"><link rel="prefetch" href="/assets/js/41.8d43de88.js"><link rel="prefetch" href="/assets/js/42.b8e2451c.js"><link rel="prefetch" href="/assets/js/43.666cdea8.js"><link rel="prefetch" href="/assets/js/44.4737f44c.js"><link rel="prefetch" href="/assets/js/45.f23ea519.js"><link rel="prefetch" href="/assets/js/46.e995411f.js"><link rel="prefetch" href="/assets/js/47.3d2012de.js"><link rel="prefetch" href="/assets/js/48.bc932f7f.js"><link rel="prefetch" href="/assets/js/49.753a5cb8.js"><link rel="prefetch" href="/assets/js/5.ef5ed1b4.js"><link rel="prefetch" href="/assets/js/50.45a7faa3.js"><link rel="prefetch" href="/assets/js/51.368d1ce8.js"><link rel="prefetch" href="/assets/js/52.0e0e2161.js"><link rel="prefetch" href="/assets/js/53.b0a7c69a.js"><link rel="prefetch" href="/assets/js/54.5de2e718.js"><link rel="prefetch" href="/assets/js/56.710c71c1.js"><link rel="prefetch" href="/assets/js/57.e77af261.js"><link rel="prefetch" href="/assets/js/58.bae30964.js"><link rel="prefetch" href="/assets/js/59.f04e7a2d.js"><link rel="prefetch" href="/assets/js/6.3f54c88d.js"><link rel="prefetch" href="/assets/js/60.46c43614.js"><link rel="prefetch" href="/assets/js/61.9ad97afb.js"><link rel="prefetch" href="/assets/js/62.761e3c03.js"><link rel="prefetch" href="/assets/js/63.59d49553.js"><link rel="prefetch" href="/assets/js/64.5986612e.js"><link rel="prefetch" href="/assets/js/65.4a0d29ad.js"><link rel="prefetch" href="/assets/js/66.927867a4.js"><link rel="prefetch" href="/assets/js/67.b9d36760.js"><link rel="prefetch" href="/assets/js/68.de107265.js"><link rel="prefetch" href="/assets/js/69.7ab12033.js"><link rel="prefetch" href="/assets/js/7.0b7cb4c5.js"><link rel="prefetch" href="/assets/js/70.d61978cb.js"><link rel="prefetch" href="/assets/js/71.8c1accb5.js"><link rel="prefetch" href="/assets/js/72.1f867eba.js"><link rel="prefetch" href="/assets/js/73.b812f9bc.js"><link rel="prefetch" href="/assets/js/74.309b5507.js"><link rel="prefetch" href="/assets/js/75.1565e1e3.js"><link rel="prefetch" href="/assets/js/76.c9e6f62f.js"><link rel="prefetch" href="/assets/js/77.7d3b6eae.js"><link rel="prefetch" href="/assets/js/78.6925bbb8.js"><link rel="prefetch" href="/assets/js/79.ff91600b.js"><link rel="prefetch" href="/assets/js/8.50f355cc.js"><link rel="prefetch" href="/assets/js/80.c2fdbeda.js"><link rel="prefetch" href="/assets/js/81.1944f453.js"><link rel="prefetch" href="/assets/js/9.febf376a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.06f8e488.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Patient file</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/" class="sidebar-heading clickable router-link-active open"><span>Home</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/faq.html" class="sidebar-link">FAQ</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/big-picture/" class="sidebar-heading clickable"><span>Big picture</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/ptserver/" class="sidebar-heading clickable"><span>Server</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/ptclient/" class="sidebar-heading clickable router-link-active"><span>Client</span> <span class="arrow right"></span></a> <!----></section></li><li><a href="/GLOSSARY.html" class="sidebar-link">Glossary</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="introduction"><a href="#introduction" class="header-anchor">#</a> Introduction</h1> <p>Psych Review of Systems (PRS in short) has 18 sub sections. The sections are as follows:</p> <p>Gateway Mood Symptoms,<br>
+Depression,<br>
+Mania / Hypomania,<br>
+Psychosis,<br>
+Sleep,<br>
+Substance Use,<br>
+GAD,<br>
+Panic Attacks,<br>
+Social Anxiety,<br>
+OCD,<br>
+PTSD,<br>
+ADHD,<br>
+Anorexia,<br>
+Bulimia,<br>
+Dementia,<br>
+Suicide Assessment,<br>
+Homicide Assessment,<br>
+Subjective</p> <h1 id="fields-of-sub-section-gateway-mood-symptoms"><a href="#fields-of-sub-section-gateway-mood-symptoms" class="header-anchor">#</a> Fields of sub section 'Gateway Mood Symptoms':</h1> <p>In the past 10 days, how many days have you felt depressed for most of the day?<br>
+In the past 10 days, how many days have you felt low interest or motivation throughout most of the day?<br>
+In the past 10 days, how many days have you been abnormally irritable throughout most of the day?<br>
+In the past 10 days, how many days have you been abnormally energetic or high energy throughout most of the day?<br>
+In the past 10 days, how many days have you felt abnormal mood elevation throughout most of the day?<br>
+How difficult to the above symptoms make your day to day life?</p> <h1 id="fields-of-sub-section-depression"><a href="#fields-of-sub-section-depression" class="header-anchor">#</a> Fields of sub section 'Depression':</h1> <p>Depressive mood,<br>
+Interest,<br>
+Sleep,<br>
+Guilt / Self Esteem,<br>
+Energy,<br>
+Conc/Distir,<br>
+Appetite,<br>
+PMR/PMA,<br>
+Sl,<br>
+Note</p> <h1 id="fields-of-sub-section-mania-hypomania"><a href="#fields-of-sub-section-mania-hypomania" class="header-anchor">#</a> Fields of sub section 'Mania / Hypomania':</h1> <p>Mood elevation<br>
+Irritable<br>
+Energy/GDA/PMA<br>
+Sleep need<br>
+Talking<br>
+Racing Thoughts/FOI<br>
+Distractibility<br>
+High Risk Behaviour<br>
+Note</p> <h1 id="fields-of-sub-section-psychosis"><a href="#fields-of-sub-section-psychosis" class="header-anchor">#</a> Fields of sub section 'Psychosis':</h1> <p>Delusions<br>
+Hallucinations<br>
+Disorganized Speech<br>
+Disorganized or Catatonic Behavior<br>
+Negative Sx's<br>
+Note</p> <h1 id="fields-of-sub-section-sleep"><a href="#fields-of-sub-section-sleep" class="header-anchor">#</a> Fields of sub section 'Sleep':</h1> <p>Average number of hours slept per night (doctors assessment)<br>
+Note</p> <h1 id="fields-of-sub-section-substance-use"><a href="#fields-of-sub-section-substance-use" class="header-anchor">#</a> Fields of sub section 'Substance Use':</h1> <p>Used in larger amounts or over longer period than intended<br>
+Persistent desire or unsuccessful efforts to cut down or control use<br>
+A great deal of time spent in activities necessary to obtain substance, use substance or recover from its effects<br>
+Craving<br>
+Failure to fulfill major role obligations at work, school, or home due to use<br>
+Continued use despite recurrent social or interpersonal problems due to use<br>
+Recurrent use in situations in which physically hazardous<br>
+Use despite knowledge of physical or psychological problems likely exacerbated by use<br>
+Tolerance (need increased amounts or diminished effect)<br>
+Withdrawal<br>
+Note</p> <h1 id="fields-of-sub-section-gad"><a href="#fields-of-sub-section-gad" class="header-anchor">#</a> Fields of sub section 'GAD':</h1> <p>Excess worry or anxiety<br>
+Difficult to control worry<br>
+Restless or on edge<br>
+Fatigued<br>
+Difficulty Concentrating<br>
+Irritability<br>
+Muscle Tension<br>
+Sleep Disturbance<br>
+Note</p> <h1 id="fields-of-sub-section-panic-attacks"><a href="#fields-of-sub-section-panic-attacks" class="header-anchor">#</a> Fields of sub section 'Panic Attacks':</h1> <p>Panic Attacks Per Month<br>
+Impairment Caused by Panic Attacks<br>
+Intensity of Panic Attacks<br>
+Note</p> <h1 id="fields-of-sub-section-social-anxiety"><a href="#fields-of-sub-section-social-anxiety" class="header-anchor">#</a> Fields of sub section 'Social Anxiety':</h1> <p>Marked anxiety about 1 or more social situations<br>
+Fear that will act in a way that will be negatively evaluated<br>
+Social situation(s) almost always provokes anxiety<br>
+Social situation(s) is avoided or endured with intense anxiety<br>
+Anxiety is out of proportion to actual threat of the situation<br>
+Note</p> <h1 id="fields-of-sub-section-ocd"><a href="#fields-of-sub-section-ocd" class="header-anchor">#</a> Fields of sub section 'OCD':</h1> <p>Obsessions<br>
+Compulsions<br>
+Distressing or Impairing or Time-Consuming ( &gt; 1 hr/day)<br>
+Insight<br>
+Note</p> <h1 id="fields-of-sub-section-ptsd"><a href="#fields-of-sub-section-ptsd" class="header-anchor">#</a> Fields of sub section 'PTSD':</h1> <p>Re-experiencing Symptoms<br>
+Avoidance Symptoms<br>
+Arousal Symptoms<br>
+Negative Mood or Cognitions<br>
+Note</p> <h1 id="fields-of-sub-section-adhd"><a href="#fields-of-sub-section-adhd" class="header-anchor">#</a> Fields of sub section 'ADHD':</h1> <p>INATTENTION<br>
+HYPERACTIVITY<br>
+Careless mistakes or poor attention to detail<br>
+Problem sustaining attention<br>
+Poor listening<br>
+Fails to finish tasks<br>
+Difficulty organizing tasks<br>
+Reluctant to engage in tasks that require sustained mental effort<br>
+Loses things often<br>
+Distracted by extraneous stimuli<br>
+Forgetful daily activities<br>
+Fidgets often<br>
+Leaves seat often when sitting is expected<br>
+Feels restless<br>
+Unable to engage in leisurely activities quietly<br>
+Seems &quot;on the go&quot; or &quot;driven by motor&quot;<br>
+Talks excessively<br>
+Blurts out often<br>
+Difficulty waiting turn<br>
+Interrupts or intrudes on others<br>
+Note</p> <h1 id="fields-of-sub-section-anorexia"><a href="#fields-of-sub-section-anorexia" class="header-anchor">#</a> Fields of sub section 'Anorexia':</h1> <p>Food restriction leading to significantly low weight<br>
+Intense fear of gaining weight or behavior that interferes with wt gain<br>
+Body image disturbance, or excess influence of shape on self evaluation, or denial of seriousness of low body weight<br>
+Latest BMI<br>
+Note</p> <h1 id="fields-of-sub-section-bulimia"><a href="#fields-of-sub-section-bulimia" class="header-anchor">#</a> Fields of sub section 'Bulimia':</h1> <p>Binge eating (large quantity and lack of control of eating)<br>
+Compensatory behaviors (vomiting, laxatives, fasting, exercise)<br>
+Self evaluation highly influenced by shape<br>
+Note</p> <h1 id="fields-of-sub-section-dementia"><a href="#fields-of-sub-section-dementia" class="header-anchor">#</a> Fields of sub section 'Dementia':</h1> <p>Note</p> <h1 id="fields-of-sub-section-suicide-assessment"><a href="#fields-of-sub-section-suicide-assessment" class="header-anchor">#</a> Fields of sub section 'Suicide Assessment':</h1> <p>Does patient report suicidal ideations ?<br>
+Note</p> <h1 id="fields-of-sub-section-homicide-assessment"><a href="#fields-of-sub-section-homicide-assessment" class="header-anchor">#</a> Fields of sub section 'Homicide Assessment':</h1> <p>Does patient report homicidal ideations ?'<br>
+Note</p> <h1 id="fields-of-sub-section-subjective"><a href="#fields-of-sub-section-subjective" class="header-anchor">#</a> Fields of sub section 'Subjective':</h1> <p>Note</p> <h1 id="layer-1-interaction"><a href="#layer-1-interaction" class="header-anchor">#</a> Layer 1 interaction</h1> <p>┌─────────────────────┐<br>
+┌──────────────────────────────────────────────────────────────────┐ ┌────────┤ Card header actions ├──────────┐<br>
+│ ┌─────────────────────────────────────────┐ ┌─────────┐│ │ └─────────────────────┘ │<br>
+│ │ Subjective and Psych Review of Systems │ │ A ││ │A -&gt; Multi add option │<br>
+│ └─────────────────────────────────────────┘ └─────────┘│ │ │<br>
+│ │ │ │<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐ │ └─────────────────────────────────────────┘<br>
+│ Gateway Mood Symptoms A G │<br>
+│ │ │ │<br>
+│ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ │ ┌─────────────────┐<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐ │ ┌──────────┤Data row actions ├─────────────┐<br>
+│ Depression. A G │ │ └─────────────────┘ │<br>
+│ │ │ │ │A -&gt; Form to add data │<br>
+│ ─ ─ ▲ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ │ │ │<br>
+│ │ │ │G -&gt; Graph │<br>
+│ │ │ │ │<br>
+│ │ │ │ │<br>
+│ │ │ └──────────────────────────────────────────┘<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │ ┌───────────────────────────────────────┐<br>
+│ │ │ │Only gateway mood and depression has │<br>
+│ └──────────────────────────────────────────────────────────┼───┤been show for demonstration purpose. │<br>
+│ │ │Here will be all 18 sub sections in row│<br>
+│ │ │wise manner. │<br>
+│ │ │ │<br>
+│ │ └───────────────────────────────────────┘<br>
+│ │<br>
+│ │<br>
+└──────────────────────────────────────────────────────────────────┘</p> <h1 id="in-layer-2-this-is-what-it-will-look-like-when-a-clicked"><a href="#in-layer-2-this-is-what-it-will-look-like-when-a-clicked" class="header-anchor">#</a> In layer 2, this is what it will look like when A clicked</h1> <p>┌───────────────────────────────────────────────────────────────────────────────────────────────────────┐<br>
+│┌────────────────────────┐ │<br>
+││Gateway Mood Symptoms │ │<br>
+│└────────────────────────┘ │<br>
+│ │<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┌────┐ │<br>
+│ In the past 10 days, how many days have you felt depressed for most of the day? │ │ 2 │◀───────────┼───┐<br>
+│ └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ └────┘ │ │<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┌────┐ │ │<br>
+│ In the past 10 days, how many days have you felt low interest or motivation │ │ 1 │◀───────────┼───┤<br>
+│ └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ └────┘ │ │<br>
+│ │ │<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┌────┐ │ │<br>
+│ │ │ │◀───────────┼───┤<br>
+│ └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ └────┘ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┌────────────┐ │ │<br>
+│ How difficult to the above symptoms make your day to day life? │ │ Not at all │◀────┼───┤<br>
+│ └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ └────────────┘ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ ┌──────────────┐ │ │<br>
+│ │ Save │ │ │<br>
+│ └──────────────┘ │ │<br>
+│ │ │<br>
+│ │ │<br>
+│ │ │<br>
+└───────────────────────────────────────────────────────────────────────────────────────────────────────┘ │<br>
+│<br>
+┌──────────────────────────┐ │<br>
+│ These are dropdowns ├──────┘<br>
+└──────────────────────────┘</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a256a33b.js" defer></script><script src="/assets/js/2.d56ae915.js" defer></script><script src="/assets/js/55.303b3955.js" defer></script>
+  </body>
+</html>
